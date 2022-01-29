@@ -50,6 +50,12 @@ body{
 .container .item-right .name .first-name{
 
     margin-right: 5px;
+    width: 30%;
+}
+
+.container .item-right .name .last-name{
+
+    width:30%;
 }
 
 .container .item-right .styling {
