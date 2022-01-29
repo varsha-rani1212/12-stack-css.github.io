@@ -41,7 +41,7 @@ body{
 
 }
 
-.container .item-right .heading{
+.container .item-right .heading h1{
     display: flex;
     flex-wrap: wrap;
 }
