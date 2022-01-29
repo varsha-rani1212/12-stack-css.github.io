@@ -6,7 +6,7 @@
 
 body{
 
-    background-image: url("background-image.jpeg");
+    background-image: url("images/background-image.jpeg");
 }
 
 .container{
@@ -41,9 +41,15 @@ body{
 
 }
 
+.container .item-right .heading{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container .item-right .name{
 
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -51,6 +57,10 @@ body{
 
     margin-right: 5px;
     width: 30%;
+}
+.container .item-right .name .first-name label{
+
+    margin-right: 5px;
 }
 
 .container .item-right .name .last-name{
