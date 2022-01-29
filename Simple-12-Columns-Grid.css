@@ -113,6 +113,12 @@ body{
     flex-wrap: wrap;
 }
 
+.container .item-right .date label{
+
+    margin-top: 10px;
+
+}
+
 .container .item-right .date{
 
     margin-bottom: 30px;
