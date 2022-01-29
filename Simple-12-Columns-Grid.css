@@ -44,6 +44,7 @@ body{
 .container .item-right .name{
 
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container .item-right .name .first-name{
@@ -95,6 +96,7 @@ body{
 .container .item-right .date{
 
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container .item-right .date{
