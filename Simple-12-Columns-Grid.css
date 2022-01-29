@@ -49,14 +49,13 @@ body{
 .container .item-right .name{
 
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .container .item-right .name .first-name{
 
-    margin-right: 5px;
-    width: 30%;
+    margin-right: 10px;
+    width: 40%;
 }
 .container .item-right .name .first-name label{
 
@@ -65,7 +64,7 @@ body{
 
 .container .item-right .name .last-name{
 
-    width:30%;
+    width:40%;
 }
 
 .container .item-right .styling {
