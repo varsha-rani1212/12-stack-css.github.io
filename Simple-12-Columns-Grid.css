@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url("images/background-image.jpeg");
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    column-gap: 12px;
+    height: 100vh;
+
+    align-items: center;
+}
+
+.container .item-left{
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.container .item-left p{
+
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.container .item-right{
+
+    grid-column-start: 6;
+    grid-column-end: 11;
+    padding: 10px 20px;
+    background-color: white
+
+}
+
+.container .item-right .name{
+
+    display: flex;
+}
+
+.container .item-right .name .first-name{
+
+    margin-right: 80px;
+}
+
+.container .item-right .styling {
+
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+
+.container .item-right label,input{
+
+    display: flex;
+    flex-direction: column;  
+}
+
+.container .item-right input{
+
+    height: 30px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.container .item-right .heading{
+    
+    margin-bottom: 10px;
+}
+
+.container .item-right .Sign-in p{
+
+    margin-bottom: 30px;
+}
+
+.container .item-right .terms p{
+
+    margin-bottom: 50px;
+}
+
+.container .item-right .create-button{
+
+    width: 200px;
+    text-align: center;
+}
+
+.container .item-right .date{
+
+    display: flex;
+}
+
+.container .item-right .date{
+
+    margin-bottom: 30px;
+}
+
+.container .item-right .date select{
+
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 95%;
+    height: 50px;
+    margin-right: 80px;
+}
+
+.container .item-right .create-button input{
+
+    background-color: rgb(3, 45, 61);
+    color: white;
+    padding: 5px 2%;
+    width: 100px;
+}

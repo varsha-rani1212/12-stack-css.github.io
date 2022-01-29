@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-12-Columns-Grid</title>
+
+    <link rel="stylesheet" href="Simple-12-Columns-Grid.css">
+</head>
+<body>
+    
+    <div class="container">
+       
+        <div class="item-left">
+
+            <p>Behold</p>
+
+        </div>
+
+        <!-- form -->
+        <div class="item-right">
+
+            <form action="backend.php">
+
+                <div class="heading">
+                    <h1>Create an account</h1>
+                </div>
+    
+                <div class="Sign-in">
+                    <p>
+                        Already have an account?
+                        <a href="">Sign in</a>
+                    </p>
+                </div>
+    
+                <div class="email">
+                    <label>Email address</label>
+                    <input type="email" name="myEmail" class="styling">
+                </div>
+    
+                <div class="name">
+    
+                    <div class="first-name line">
+                        <label>First name</label>
+                        <input type="text" name="myfirstname" class="styling">
+                    </div>
+    
+                    <div class="last-name line">
+                        <label>Last name</label>
+                        <input type="text" name="mylastname" class="styling">
+                    </div>
+                </div>
+    
+                <div class="password">
+                    <label>Password</label>
+                    <input type="password" name="mypassword" class="styling">
+                </div>
+    
+                <div class="date">
+
+                    <div class="left">
+                        <label> Month </label>
+                        <select name="mymonth">
+                            <option> January </option>
+                            <option> Febuary </option>
+                            <option> March </option>
+                        </select>
+                    </div>
+
+                    <div class="middle">
+                        <label> Date</label>
+                        <select name="mydate">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+
+                    <div class="last">
+                        <label>Year</label>
+                        <select name="myyear">
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                        </select>
+                    </div>
+
+                </div>
+    
+                <div class="terms">
+                    <p>
+                     By clicking Create account. I agree that I have read and accepted the 
+                    <a href="">Terms of Use</a> and 
+                    <a href="">Privacy Policy</a>
+                    </p>
+                </div>
+
+                <div class="create-button">
+                    <input type="button" value="Create account">
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
