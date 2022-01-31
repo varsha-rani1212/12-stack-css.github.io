@@ -37,8 +37,9 @@ body{
     grid-column-end: 12;
     padding: 10px 20px;
     background-color: white;
-    top: 8%;
-    bottom: 8%;
+    top: 20%;
+    bottom: 20%;
+    right: 10%;
 }
 
 .container .item-right .heading h1{ 
