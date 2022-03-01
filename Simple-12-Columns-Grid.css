@@ -40,7 +40,6 @@ body{
     grid-column-end: 12;
     grid-row-start: 2;
     grid-row-end: 3;
-    grid-row-e
     padding: 10px 20px;
     background-color: white;
 }
